@@ -1,7 +1,7 @@
 # config.yml
 
 profile:
-  name: Your Name
+  name: Saubhadra Chatterjee
   about: About Me section content goes here. A brief introduction about yourself, your background, and your interests. # will be used in about me section
   heading: Few Words About You #will be used in home page hero section
   footer: Your Footer Text Here. # will be used in footer section
