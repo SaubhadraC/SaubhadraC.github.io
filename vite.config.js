@@ -6,7 +6,7 @@ import yaml from '@modyfi/vite-plugin-yaml'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), yaml()],
-  base: '/SaubhadraC.github.io/',
+  base: '/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
