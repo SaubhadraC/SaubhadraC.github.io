@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saubhadrac.github.io/sitemap.xml
