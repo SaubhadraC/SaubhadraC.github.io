@@ -87,7 +87,10 @@ const iconMap = {
   Investment_Analysis: "mdi-chart-line-variant",
   Derivatives: "mdi-swap-vertical",
   Financial_Econometrics: "mdi-function-variant",
-  Ratio_Analysis: "mdi-division"
+  Ratio_Analysis: "mdi-division",
+  Corporate_Taxation: "mdi-cash-check",
+  Financial_Reporting: "mdi-chart-line-variant"
+
 } 
 </script>
 

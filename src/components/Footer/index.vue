@@ -151,7 +151,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-500 text-sm">
-          &#169; {{ new Date().getFullYear() }} Samyabrata Roy. Rights Reserved
+          &#169; {{ new Date().getFullYear() }} Saubhadra Chatterjee. Rights Reserved
         </p>
 
         <div class="flex space-x-4 mt-2 md:mt-0">

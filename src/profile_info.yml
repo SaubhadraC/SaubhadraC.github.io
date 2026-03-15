@@ -12,7 +12,7 @@ profile:
   #environment: development   # or staging / production
 
 contacts:
-  email: saubhadrachatterjee@gmail.com
+  email: saubhadrachatterjee2@gmail.com
   email2: saubhadra.pg25380@isbr.in
   phone: +91 9831960769
   location: Bengaluru, India
@@ -31,10 +31,10 @@ research_interests:
   - key: Financial_Modeling
   - key: Corporate_Finance
   - key: Ratio_Analysis
-  - key: Financial reporting
-  - key: Corporate Taxation
+  - key: Financial_Reporting
+  - key: Corporate_Taxation
   - key: Budgeting & Forecasting
-  - key: Valuation
+
 
   
 
@@ -101,13 +101,6 @@ internships:
   #     title: 'Multivariate Analysis of Career Preferences: Insights from Kolkata’s College Students'
   #     rel_link: /projects-publications?tab=projects#research-1
 
-  # - role: Growth Consultant Intern
-  #   company: Sorting Hat Technologies Private Limited (Unacademy)
-  #   location: Remote
-  #   time_period: Nov 2023 - Jan 2024
-  #   department: UnacademyX
-  #   description: 
-  #   cred_link: https://drive.google.com/file/d/19hI0Z39UDh6Rn0z4lijbEirIgZHZeU4q/preview
 
 experience:
   - job_role: Finance Accounting Intern
@@ -116,9 +109,17 @@ experience:
     location: Kolkata, WB
     projects: ["Taxation on Salaried Income"]
     time_period: June 2024 - July 2024
-    description: Completed 120+ hours on govt. finance; built a taxation report combining Section 16 and Chapter VI-A deductions. Supported budgeting and accounts with reconciliation and compliance checks.
-                 Contributed to the loan department, learning procedures of loan operations and approvals.
+    description: Completed 120+ hours in government finance, developing a comprehensive taxation report integrating Section 16 and Chapter VI-A deductions. Supported budgeting and accounts reconciliation while ensuring regulatory compliance. Contributed to loan department operations, mastering loan procedures and approval processes.
     cred_link: https://drive.google.com/file/d/17S7Sv2GFupVRjDl9qWKGiK_64XLY96_6/preview
+
+  - job_role: Tally Operator
+    type: Part Time
+    company: Chatterjee Consultancy Services
+    location: Kolkata, WB
+    # projects: ["Taxation on Salaried Income"]
+    time_period: Aug 2023 - Apr 2025
+    description: Managed accounting for 30+ companies, ensuring accurate data entry and uploads in Tally ERP.
+    # cred_link: https://drive.google.com/file/d/17S7Sv2GFupVRjDl9qWKGiK_64XLY96_6/preview
 
   # - job_role: Freelance Web Developer
   #   type: Freelance
@@ -246,26 +247,64 @@ awards:
 co_curriculars:
   - title: leadership_roles
     entries:
-      - role: Founder, Club Administrator
-        organization: 'Chi-Square: Statistics Club'
-        web_link: https://22f2001443.github.io/chi-square/
-        host: Nilgiri House
-        location: Indian Institute of Technology Madras BS Degree
-        description: Created and led the statistics community of 500+ members over 2 years. Organized more than 20 workshops, academic sessions, guest lectures and industry talks in partnerships with other societies, including the Ramanujan Society for Research (RASoR).
-        time_period: 2023 - 2025
+      - role: Graphics Lead 
+        organization: 'IEM Student GymKhana'
+        web_link: https://iem.edu.in/gymkhana/
+        # host: Nilgiri House
+        location: Institute of Engineering & Management
+        description: As Graphics Lead for IEM Student Gymkhana, crafted visual identities, event themes, and branding for major campus events. Collaborated with clubs and departments to ensure creative consistency, smooth execution, and engaging designs that bring ideas to life.
         skills: Leadership, Event Management, Team Building
+        
+      - role: Core Lead 
+        organization: 'IEM-UEM Kolkata Marathon'
+        web_link: https://iemuemkolkatamarathon.org/
+        # host: Nilgiri House
+        location: Institute of Engineering & Management
+        description: I am proud to serve as the Core Lead for IEM-UEM Marathon 2025. I coordinated and executed efforts across teams to ensure the success of this large event. From planning to on-site management, I played a key role in shaping one of the campus's biggest sports initiatives.
+        skills: Sporsorship, Micro Management, Networking
+
+      - role: Founder & President
+        organization: 'ArthSamridhi: The Finance Club of IEM'
+        # web_link: https://iem.edu.in/gymkhana/
+        host: Dept. of Business Administration
+        location: IEM, Ashram Campus
+        description: Founded and served as President of the Finance Club, organizing multiple workshops on key financial topics to enhance members' skills and industry knowledge.
+        skills: Leadership
+
+      - role: Student Core Lead
+        organization: bConnect 2.0
+        # web_link: https://iempact.iem.edu.in/
+        host: Dept. of Business Administration
+        location: Institute of Engineering & Management
+        description: Served as the Organizing Lead for bConnect 2.0, overseeing end-to-end execution to ensure a seamless and impactful event experience. From planning logistics to real-time coordination, I played a key role in delivering the event without a hitch.
+        skills: Graphics Designing, Marketing, Team Building
+
+      - role: Graphics Lead
+        organization: IEMPACT '25
+        web_link: https://iempact.iem.edu.in/
+        # host: Institute of Engineering & Management
+        location: Institute of Engineering & Management
+        description: As the Graphics Lead of IEMPACT 2025, I led my team in delivering all event creatives—right from curating the color palette to finalizing every design element. With a focus on coordination and timely execution, I ensured our visuals aligned seamlessly with the event's vision and deadlines.
+        skills: Graphics Designing, Leadership
 
       #Add more entries as needed
 
   - title: volunteering_roles
     entries:
-      - role: Teaching Assistant (Revision Sessions)
-        organization: "Chi-Square: Statistics Club X Nilgiri House, Indian Institute of Technology Madras BS Degree"
+      - role: Fundraiser
+        organization: "Hitoishee: The  Social Club of IEM"
+        # description: Actively contributed as a fundraiser for multiple outreach initiatives under Hitoishee – The Social Club of IEM, driving support for meaningful causes. From planning to execution, I helped organize successful campaigns that brought genuine impact and smiles to many faces.
         field:
-          - sub-field: 'Course: Statistics I'
-            time_period: Jan Term 2025 (T1-2025) ; May Term 2025 (T2-2025)
-        skills: 25+ Students Taught
-        cred_link: https://drive.google.com/file/d/16DqCyHQyJamxuLyNknZc4DtOvQD_QPDv/preview
+          - sub-field: 'Social Services'
+            time_period: Aug 2024 - Mar 2025
+        skills: Multiple Outreach Program
+        # cred_link: https://drive.google.com/file/d/16DqCyHQyJamxuLyNknZc4DtOvQD_QPDv/preview
+
+      - role: Graphics Coordinator
+        organization: "Innovacion'24"
+        skills: Photoshop, Time Management
+        # cred_link: https://drive.google.com/file/d/16DqCyHQyJamxuLyNknZc4DtOvQD_QPDv/preview
+
 
       # - role: Teaching Assistant (Project)
       #   organization: Institute of Data Engineering, Analytics and Science Foundation - Technology Innovation Hub, Indian Statistical Institute, Kolkata
