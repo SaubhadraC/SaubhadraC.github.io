@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden">
+  <div class="relative flex size-full min-h-screen flex-col bg-[#F2F9FF] group/design-root overflow-x-hidden">
     <div class="layout-container flex h-full grow flex-col">
       <!-- Hero Section -->
       <HeroSection v-if="homeFlags.showHeroSection" />

@@ -3,9 +3,7 @@ lastUpdatedOn: Feb 2026
 
 profile:
   name: Saubhadra Chatterjee
-  about: PGDM (Finance) student with hands-on experience in budgeting, taxation, financial reporting and loan operations.
-        Proficient in financial modeling, ratio analysis, and advanced Excel.
-        Applied regression on "CMIE Prowess" to study ROA/ROS. Currently seeking finance internship in FP&A/corporate finance and taxation.
+  about: I'm a vibrant PGDM Finance student buzzing with excitement over budgeting, taxation, financial reporting, and loan ops! I geek out on financial modeling, ratio analysis, and wizard-level Excel tricks—recently crushing regression analysis on CMIE Prowess to decode ROA/ROS trends. Pumped to dive into a finance internship in FP&A, corporate finance, or taxation, where I can turn numbers into epic wins!
   heading: Finance Enthusiast<br>PGDM Student, ISBR Business School #will be used in home page hero section
   footer: Your go to finance guy
   cv: https://drive.google.com/uc?export=download&id=1hgZ7_LM7OIPk5DTZDIn_L4UH0WNORvRM # google drive link for direct download
@@ -33,10 +31,8 @@ research_interests:
   - key: Ratio_Analysis
   - key: Financial_Reporting
   - key: Corporate_Taxation
-  - key: Budgeting & Forecasting
+  - key: Budgeting_&_Forecasting
 
-
-  
 
 education: # put your latest education first
   - type: University
@@ -55,7 +51,7 @@ education: # put your latest education first
     location: Kolkata, WB
     time_period: 2022 - 2025
     gpa: CGPA - 8.94/10
-    cred_link: https://drive.google.com/file/d/1N5jnPq4nCegRzXy_h75CtfA725RJlskM/preview
+    # cred_link: https://drive.google.com/file/d/1N5jnPq4nCegRzXy_h75CtfA725RJlskM/preview
 
   # - type: Diploma
 
@@ -65,8 +61,8 @@ education: # put your latest education first
     institution: Nava Nalanda High School
     location: Kolkata, WB
     time_period: 2020 - 2022
-    marks: 83.8%
-    cred_link: https://drive.google.com/file/d/1mlRqQDTgjUjQvJ6FhORB56DUj_JhbxPy/preview
+    marks: 83.4%
+    cred_link: https://drive.google.com/file/d/1NQkLKnZptx6b_Aeo7uozDOQgk8HLCRKh/preview
 
   - type: School
     degree: X - West Bengal Board of Secondary Education (WBBSE)
@@ -74,8 +70,8 @@ education: # put your latest education first
     institution: Nava Nalanda High School
     location: Kolkata, WB
     time_period: 2008 - 2020
-    marks: 73.91%
-    cred_link: https://drive.google.com/file/d/1IdRD2pzHYqWQROrnC-hYdRjzaE4acnPg/preview
+    marks: 73.71%
+    cred_link: https://drive.google.com/file/d/1M-cOXKKqEBgFtkLEhl9Y-Cji-pNob3zD/preview
 
   # Add more fields as needed
 
@@ -186,7 +182,7 @@ projects:
       institution: WBSETCL
     time_period: Jun 2024 - Jul 2024
     cred_link:
-      report: 
+      report: https://drive.google.com/file/d/1cLsVPbszZeK58t2mSlPZbZwO6mLvK13T/view?usp=drive_link
       researchgate: https://www.researchgate.net/publication/393573350_Taxation_on_Salaried_Income
     
 
@@ -302,7 +298,10 @@ co_curriculars:
 
       - role: Graphics Coordinator
         organization: "Innovacion'24"
-        skills: Photoshop, Time Management
+        field:
+          - sub-field: 
+            time_period: 
+        skills: Photoshop ; Time Management
         # cred_link: https://drive.google.com/file/d/16DqCyHQyJamxuLyNknZc4DtOvQD_QPDv/preview
 
 
