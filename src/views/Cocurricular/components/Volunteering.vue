@@ -31,7 +31,7 @@
   <!-- Fields column -->
   <div class="flex-1">
     <div
-      v-for="(f, index) in volunteering.field"
+      v-for="(f, index) in fieldEntries"
       :key="index"
       class="flex items-start justify-between mb-2"
     >
@@ -39,9 +39,9 @@
         {{ f['sub-field'] }}
       </p>
 
-      <div class="text-sm text-gray-500 flex flex-col items-end">
+      <div v-if="f.time_period" class="text-sm text-gray-500 flex flex-col items-end">
         <span
-          v-for="(period, i) in f.time_period.split(';')"
+          v-for="(period, i) in String(f.time_period).split(';')"
           :key="i"
         >
           {{ period.trim() }}
@@ -69,12 +69,21 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import DocumentViewer from '@/components/DocumentViewer.vue'
 
-defineProps({
+const props = defineProps({
   volunteering: {
     type: Object,
     required: true
   }
+})
+
+const fieldEntries = computed(() => {
+  if (!Array.isArray(props.volunteering.field)) return []
+  return props.volunteering.field.filter((entry) => {
+    if (!entry) return false
+    return Boolean(entry['sub-field'] || entry.time_period)
+  })
 })
 </script>

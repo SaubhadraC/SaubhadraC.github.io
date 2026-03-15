@@ -292,46 +292,46 @@ git fetch upstream V1
 
 ### Step 2: Apply Bug Fixes
 
-- [ ] **Footer Google Scholar guard:** Edit `src/components/Footer/Index.vue` and `src/components/Footer/index.vue` — add `v-if="google_scholar"` to the Google Scholar `<li>` element
-- [ ] **Contact whitespace fix:** Edit `src/views/Contact.vue` — fix `class ="flex` → `class="flex"`
+- [x] **Footer Google Scholar guard:** Edit `src/components/Footer/Index.vue` and `src/components/Footer/index.vue` — add `v-if="google_scholar"` to the Google Scholar `<li>` element
+- [x] **Contact whitespace fix:** Edit `src/views/Contact.vue` — fix `class ="flex` → `class="flex"`
 
 ### Step 3: Apply Feature — Home Page Feature Flags
 
-- [ ] Edit `src/config/featureFlags.js` — add the `showHome` section at the top of `DEFAULT_FEATURE_FLAGS` (keep existing this-repo default values for other flags unchanged)
-- [ ] Edit `src/views/Home/index.vue` — import `isFeatureEnabled`, create `homeFlags` object, add `v-if` bindings to each section component
+- [x] Edit `src/config/featureFlags.js` — add the `showHome` section at the top of `DEFAULT_FEATURE_FLAGS` (keep existing this-repo default values for other flags unchanged)
+- [x] Edit `src/views/Home/index.vue` — import `isFeatureEnabled`, create `homeFlags` object, add `v-if` bindings to each section component
 
 ### Step 4: Apply Feature — Credly Badge (Optional)
 
 This feature requires a Credly URL in `profile_info.yml` and a Credly icon image. If desired:
 
 - [ ] Add `credly` field under `socials` in `src/profile_info.yml` (set to your Credly URL or leave empty)
-- [ ] Add `public/icons/Credly.png` image asset
-- [ ] Edit `src/views/InternshipCertification/Index.vue` and `index.vue` — add the Credly badge section and `const credly = config.socials.credly`
+- [x] Add `public/icons/Credly.png` image asset
+- [x] Edit `src/views/InternshipCertification/Index.vue` and `index.vue` — add the Credly badge section and `const credly = config.socials?.credly`
 
 ### Step 5: Apply Feature — SmartLink TypeScript (Optional)
 
-- [ ] Edit `src/components/SmartLink.vue` — convert to TypeScript with typed props and interface
+- [x] Edit `src/components/SmartLink.vue` — convert to TypeScript with typed props and interface
 
 ### Step 6: Apply Refactoring — Cocurricular Leadership
 
-- [ ] Edit `src/views/Cocurricular/components/Leadership.vue` — remove outer wrapper div and section header
-- [ ] Edit `src/views/Cocurricular/Index.vue` and `index.vue` — add the wrapper div and section header around the `v-for` loop
+- [x] Edit `src/views/Cocurricular/components/Leadership.vue` — remove outer wrapper div and section header
+- [x] Edit `src/views/Cocurricular/Index.vue` and `index.vue` — add the wrapper div and section header around the `v-for` loop
 
 ### Step 7: Apply Refactoring — Volunteering Null-Safety
 
-- [ ] Edit `src/views/Cocurricular/components/Volunteering.vue` — add `computed` import, convert to `const props`, add `fieldEntries` computed, update template to use `fieldEntries` with guards
+- [x] Edit `src/views/Cocurricular/components/Volunteering.vue` — add `computed` import, convert to `const props`, add `fieldEntries` computed, update template to use `fieldEntries` with guards
 
 ### Step 8: Apply UI Change — Header Icon
 
-- [ ] Edit `src/components/Header.vue` — change `size-7` to `size-4`, add `rounded-full` to img
+- [x] Edit `src/components/Header.vue` — change `size-7` to `size-4`, add `rounded-full` to img
 
 ### Step 9: Apply Formatting (Optional)
 
-- [ ] Minor indentation fixes in `Index.vue` / `index.vue` files as listed in Section 3.5
+- [x] Minor indentation fixes in `Index.vue` / `index.vue` files as listed in Section 3.5
 
 ### Step 10: Test & Verify
 
-- [ ] Run `npm run build` to confirm no build errors
+- [x] Run `npm run build` to confirm no build errors
 - [ ] Run `npm run dev` and manually verify each page
 - [ ] Confirm feature flags work (toggle values and check rendering)
 - [ ] Confirm null-safety improvements (remove data fields and verify no crashes)
