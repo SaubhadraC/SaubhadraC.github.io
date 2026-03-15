@@ -4,7 +4,7 @@ const DEFAULT_FEATURE_FLAGS = Object.freeze({
     showResearchInterests: true,
     showExperience: true,
     showEducation: true,
-    showAwards: false,
+    showAwards: true,
   },
 
   showProjectsPublications: {
