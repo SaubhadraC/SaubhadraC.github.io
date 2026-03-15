@@ -112,7 +112,7 @@
           <h4 class="text-lg font-semibold mb-2">Social Links</h4>
 
           <ul class="space-y-2">
-            <li v-if="google_scholar"> 
+            <li>
               <a :href="google_scholar" target="_blank">Google Scholar</a>
             </li>
             <li>
@@ -142,7 +142,7 @@
             <a href="https://info.flagcounter.com/Wh9G"><img
                 src="https://s01.flagcounter.com/count2/Wh9G/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
                 alt="Flag Counter" border="0"></a>
-          </div> -->
+          </div> --> 
         </div>
       </div>
 
@@ -151,7 +151,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-500 text-sm">
-          &#169; {{ new Date().getFullYear() }} Saubhadra Chatterjee. Rights Reserved
+          &#169; {{ new Date().getFullYear() }} Samyabrata Roy. Rights Reserved
         </p>
 
         <div class="flex space-x-4 mt-2 md:mt-0">
@@ -223,7 +223,7 @@ export default {
       google_scholar: socials.google_scholar,
       researchgate: socials.researchgate,
       // logos: ['MSRKAV', 'NN', 'SNU', 'IITM', 'IDEAS'],
-      logos: ['NN', 'IEM', 'ISBR'],
+      logos: ['SNU', 'IITM', 'IDEAS'],
       lastUpdatedOn,
       showOngoingProjectsLink,
       showInternshipCertificationsLink,
