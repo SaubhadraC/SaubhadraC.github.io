@@ -41,7 +41,7 @@
 
       <div v-if="f.time_period" class="text-sm text-gray-500 flex flex-col items-end">
         <span
-          v-for="(period, i) in String(f.time_period).split(';')"
+          v-for="(period, i) in (f.time_period ?? '').split(';')"
           :key="i"
         >
           {{ period.trim() }}
